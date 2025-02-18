@@ -28,3 +28,7 @@ Route::get('/world', function () {
 Route::get('/', function () {
    return 'Selamat Datang'; 
 });
+
+Route::get('/about', function () {
+   return 'Khoirotun Nisa / 2341720057' ; 
+});
