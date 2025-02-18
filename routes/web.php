@@ -32,3 +32,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
    return 'Khoirotun Nisa / 2341720057' ; 
 });
+
+Route::get('/user/{name}', function ($name) {
+    return 'Nama Saya '.$name;
+});
